@@ -19,3 +19,8 @@ for i in range(5):
     print(i)
 
 # enumerate
+
+print('ABAIXO ENUMERATES')
+
+for i, name in enumerate(NAMES):
+    print(name, i)
