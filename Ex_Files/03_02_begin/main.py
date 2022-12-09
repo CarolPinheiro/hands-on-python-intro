@@ -22,6 +22,8 @@ for laureate in laureates:
         pprint(laureate)
         print("============")
         year_date = datetime.strptime(laureate["year"], "%Y")
+        print("============", year_date)
         born_date = datetime.strptime(laureate["born"], "%Y-%m-%d")
+        print("============", type(born_date))
         print("age", year_date.year - born_date.year)
         break
